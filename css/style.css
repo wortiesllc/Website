@@ -693,6 +693,24 @@ ul.simplefilter {
 .privacypolicy {
 
 }
+.privacypolicy-button {
+	text-align: center;
+	margin: 1em 0 0 0;
+}
+.privacypolicy p {
+	width: 95%;
+	margin: 4em 0 0 0;
+}
+.privacypolicy-title h2, .privacypolicy-title h3 {
+	font-size: 4em;
+	color: #ff9800;
+	margin: 0;
+	text-align: center;
+	font-family: 'Lexend Giga', sans-serif;
+}
+.privacypolicy h2, h3 {
+	font-size: 3em;
+}
 /*-- //model --*/
 /*-- testimonial --*/
 .testimonial{
@@ -1390,6 +1408,7 @@ ul.simplefilter {
 	.agileits-title p {
 		width: 95%;
 	}
+	
 	.agileits-team-grid {
 		float: left;
 		width: 50%;
