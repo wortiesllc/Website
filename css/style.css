@@ -688,6 +688,11 @@ ul.simplefilter {
     color: #999999;
     line-height: 1.8em;
 }
+/*-- //privacy policy --*/
+/*-- privacy policy --*/
+.privacypolicy {
+
+}
 /*-- //model --*/
 /*-- testimonial --*/
 .testimonial{
@@ -1111,7 +1116,6 @@ ul.simplefilter {
 }
 .contact-w3lsright {
 	padding: 6em 6em;
-    background: #ececec;
 }
 .contact-w3lsright h6 {
 	line-height: 1.5em;
