@@ -3,44 +3,45 @@ Author: W3layout
 Author URL: http://w3layouts.com
 -->
 <!DOCTYPE html>
+<base href=. target=_blank>
 <html lang="en">
 <head>
-<title>Worties</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="game development gaming developers unity" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- portfolio -->	
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
-<!-- //portfolio -->	
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<link rel=icon href="images/ba7b7a9ca84d9731ecaad4a911706c30_original.png" sizes="16x16" type="image/png">
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	<title>Worties</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="game development gaming developers unity" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- portfolio -->
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+	<!-- //portfolio -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<link rel=icon href="images/ba7b7a9ca84d9731ecaad4a911706c30_original.png" sizes="16x16" type="image/png">
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
 		});
-	});
-</script> 
+	</script>
 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<!-- banner -->
@@ -72,7 +73,6 @@ Author URL: http://w3layouts.com
 										<li><a href="#team" class="scroll">Team</a></li>
 										<li><a href="#blog" class="scroll">Blog</a></li>
 										<li><a href="#mail" class="scroll">Mail Us</a></li>
-										<li><a href="#privacyPolicy" class="scroll">Privacy Policy</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -834,17 +834,6 @@ Author URL: http://w3layouts.com
 		</div>
 	</div>
 
-	<!-- //privacy -->
-	<!-- privacy policy -->
-	<div class="privacypolicy blog" id="privacyPolicy">
-		<div class="container">
-			<div class="privacypolicy-title"><h3>Privacy Policy</h3></div>
-			<p>The Worties, LLC Privacy Policy is designed to help you better understand the information we collect and the different ways we may use or share it. </p>
-			<div class="w3-button privacypolicy-button">
-				<a href="#" data-toggle="modal" data-target="#privacyPolicyModal">Read More</a>
-			</div>
-		</div>
-	</div>
 	<script src="js/classie.js"></script>
 	<script>
 		(function () {
@@ -950,6 +939,8 @@ Author URL: http://w3layouts.com
 						<h3>About Us</h3>
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+					<p><a href="#" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a></p>
 				</div>
 				<div class="col-md-4 amet-sed amet-medium">
 					<div class="footer-title">
@@ -1016,6 +1007,12 @@ Author URL: http://w3layouts.com
 
 			$().UItoTop({ easingType: 'easeOutQuart' });
 
+            var hash = window.location.hash.substr(1);
+			console.log(hash);
+			if (hash != "") {
+                $('html,body').animate({ scrollTop: $('#' + hash).offset().top }, 1000);
+            }			
+
 		});
 	</script>
 	<!-- //here ends scrolling icon -->
@@ -1036,5 +1033,5 @@ Author URL: http://w3layouts.com
 		});
 	</script>
 	<!-- //PopUp-Box-JavaScript -->
-</body>	
+</body>
 </html>
