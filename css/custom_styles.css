@@ -83,13 +83,15 @@
 }
 
 .email-capture {
-    background-color: #f2f2f2;
+    background-color: rgba(87, 87, 87, 0.75);
     width: 100%;
     padding: 1em;
+    margin-top: 1em;
 }
 
 .email-capture h4 {
     text-align: center;
+    color: #fff;
 }
 
 .email-capture-form {
@@ -100,16 +102,11 @@
     gap: 1em;
 }
 
-.email-capture-form input {
-    min-width: 50%;
-}
-
-.email-capture-form button {
-    color: #FFFFFF;
-    font-size: 1em;
-    padding: .5em 1em;
-    border: solid 2px #FF9800;
-    text-decoration: none;
-    border-radius: 30px;
-    background: #FF9800;
+#mc_embed_signup {
+    margin: 0 auto;
+    padding: 3em;
+    max-width: 50%;
+    background-color: rgba(123, 123, 123, 0.75);
+    color: white;
+    font-family:'Lexend Giga',sans-serif;
 }
