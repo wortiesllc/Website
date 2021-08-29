@@ -71,17 +71,13 @@ Author URL: http://w3layouts.com
 	<!-- email capture form-->
 	<!-- Begin Mailchimp Signup Form -->
 	<div>
-		<div class="support" style="opacity: 80%; margin-top: 0px !important; position: fixed; top: 20px; margin-left:20px; padding-left: 30px; z-index: 1300;">
+		<!--style="opacity: 80%; margin-top: 0px !important; position: fixed; top: 20px; margin-left:20px; padding-left: 30px; z-index: 1300;"-->
+		<div class="floatingEmailSub">
 			<form action="#" onsubmit="return  join_ym(this);" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate id="emailsub">
-				<div>
-					<div id="mce-responses">
-						<div class="response" id="mce-error-response"></div>
-						<div class="response" id="mce-success-response"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				</div>
-				<div>
-					<input type="email" placeholder="Enter email...." required="" id="email">
-					<input type="submit" value=">" class="w3-button">
+				<div >
+					<div><input type="email" placeholder="Enter email...." required="" style="max-width:100%" id="email">
+					<input type="submit" value=">" class="buttonOrange"></div>
+					
 				</div>
 				<div aria-hidden="true" class="hidden"><input type="text" name="b_e47cbbc8b68cf097970bfc5d9_0e992a1168" tabindex="-1" value=""></div>
 			</form>
@@ -584,23 +580,28 @@ Author URL: http://w3layouts.com
 			<div class="footer-top">
 				<div class="col-md-6 amet-sed">
 					<div class="footer-title">
-						<h3>About Us</h3>
+						<h3><a href="#" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a></h3>
 					</div>
-					<p>
-						Worties is the product of many talented people coming together and putting their heart and soul into their work.
-						In February 2019, it all started with a picture of asteroids. A picture of asteroids that would later on become the basis for their debut game, Flick Fight.
-						After a few years development experience and many meaningful lessons learned, they are ready to tackle more ambitious projects and wish for others to experience them in the same way that they do.
-					</p>
-
-					<p><a href="#" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a></p>
+					<div style="margin-bottom:20px">
+						<div class="support">
+							<form action="#" onsubmit="return  join_ym2(this);" method="post" name="mc-embedded-subscribe-form2" target="_blank" novalidate id="emailsub2">
+								<div>
+									<input type="email" placeholder="Enter email...." required="" id="email2">
+									<input type="submit" value=">" class="w3-button">
+								</div>
+								<div aria-hidden="true" class="hidden"><input type="text" name="b_e47cbbc8b68cf097970bfc5d9_0e992a1168" tabindex="-1" value=""></div>
+							</form>
+						</div>
+					</div>
 				</div>
+				
 				<!-- <div class="col-md-4 amet-sed amet-medium">
-					<div class="footer-title">
-						<h3>Twitter Feed</h3>
-					</div>
-					<p><a href="#">http://example.com</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum eget placerat. </p>
-					<p><a href="#">http://mail.com</a> Sed tincidunt lorem sed velit fermentum eget placerat. Lorem ipsum dolor sit, consectetur adipiscing elit. </p>
-				</div> -->
+		<div class="footer-title">
+			<h3>Twitter Feed</h3>
+		</div>
+		<p><a href="#">http://example.com</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum eget placerat. </p>
+		<p><a href="#">http://mail.com</a> Sed tincidunt lorem sed velit fermentum eget placerat. Lorem ipsum dolor sit, consectetur adipiscing elit. </p>
+	</div> -->
 				<div class="col-md-6 amet-sed ">
 					<div class="footer-title">
 						<h3>Follow Us</h3>
@@ -614,17 +615,7 @@ Author URL: http://w3layouts.com
 						</ul>
 					</div>
 
-					<div>
-						<div class="support" >
-							<form action="#" onsubmit="return  join_ym2(this);" method="post" name="mc-embedded-subscribe-form2" target="_blank" novalidate id="emailsub2">								
-								<div>
-									<input type="email" placeholder="Enter email...." required="" id="email2">
-									<input type="submit" value=">" class="w3-button">
-								</div>
-								<div aria-hidden="true" class="hidden"><input type="text" name="b_e47cbbc8b68cf097970bfc5d9_0e992a1168" tabindex="-1" value=""></div>
-							</form>
-						</div>
-					</div>
+					
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -635,7 +626,7 @@ Author URL: http://w3layouts.com
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
-			<p class="footer-class">© 2020 Gaming Store . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p class="footer-class">© 2021 Worties LLC. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>
 	<!-- //copyright -->
