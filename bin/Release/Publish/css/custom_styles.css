@@ -1,0 +1,112 @@
+.worties-privacy-policy {
+    background-color: #FFFFFF;
+    color: #4c4c4e;
+    font-family:'Lexend Giga',sans-serif;
+}
+
+.worties-privacy-policy--updated {}
+.worties-privacy-policy--section-header {
+    /* h3 */
+    line-height:1.584;
+    background-color:#ffffff;
+    margin-top:15pt;
+    margin-bottom:8pt;
+    padding:7pt 0pt 8pt 0pt;
+}
+.worties-privacy-policy--section-header-span {
+    font-size:18pt;
+    font-family:'Lexend Giga',sans-serif;
+    color:#333333;
+    background-color:transparent;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none;
+    vertical-align:baseline;
+    white-space:pre-wrap;
+}
+
+.worties-privacy-policy--section-body {
+    line-height:1.656;
+    background-color:#ffffff;
+    margin-top:0pt;
+    margin-bottom:0pt;
+    padding:0pt 0pt 8pt 0pt;
+
+}
+
+.worties-privacy-policy--section-body-span {
+    font-size:10.5pt;font-family:'Lexend Giga',sans-serif;
+    color:#4c4c4e;
+    background-color:transparent;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none;
+    vertical-align:baseline;
+    white-space:pre-wrap;
+}
+
+.worties-privacy-policy--section-body-span:last-child
+
+.worties-privacy-policy--list-item {
+    list-style-type:disc;
+    font-size:10.5pt;
+    font-family:'Lexend Giga',sans-serif;
+    color:#333333;
+    background-color:transparent;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none;
+    vertical-align:baseline;
+}
+
+.worties-privacy-policy--list-item-body-text {
+    line-height:1.7999999999999998;
+    background-color:#ffffff;
+    margin-top:0pt;
+    margin-bottom:0pt;
+}
+
+.worties-privacy-policy--list-item-body-text-span {
+    font-size:10.5pt;
+    font-family:'Lexend Giga',sans-serif;
+    color:#333333;
+    background-color:transparent;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none;
+    vertical-align:baseline;
+    white-space:pre-wrap;
+}
+
+.email-capture {
+    background-color: rgba(87, 87, 87, 0.75);
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.email-capture h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.email-capture-form {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+#mc_embed_signup {
+    margin: 0 auto;
+    padding: 3em;
+    max-width: 50%;
+    background-color: rgba(123, 123, 123, 0.75);
+    color: white;
+    font-family:'Lexend Giga',sans-serif;
+}
