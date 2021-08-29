@@ -23,7 +23,7 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/topbanner2.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
@@ -213,7 +213,7 @@ body{
     left: 0;
 }
 #slider3-pager a {
-  display: inline-block;
+	display: inline-block;
 }
 #slider3-pager span{
   float: left;
@@ -372,20 +372,25 @@ body{
 .about-w3lsrow {
     margin: 4em 0 0 0;
 }
+.about{
+	
+}
 .w3about-img {
-    background: url(../images/2.jpg)no-repeat 0px 0px;
-    background-size: cover;
+    background: url(../images/characterMain.jpg)no-repeat 0px 0px;
+	background-size: contain;
+	background-position:center;
     min-height: 30em;
     padding: 0;
 	position:relative;
 }
 .w3about-text {
-    background: #f2f2f2;
-    position: absolute;
-    width: 75%;
-    padding: 3em;
-    right: -45%;
-    top: 27%;
+	background: #f2f2f2;
+	position: absolute;
+	width: 75%;
+	padding: 3em;
+	right: -45%;
+	top: 27%;
+	min-width: 400px;
 }
 .w3about-text h5 {
     font-size: 2em;
@@ -714,7 +719,7 @@ ul.simplefilter {
 /*-- //model --*/
 /*-- testimonial --*/
 .testimonial{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/characterMain.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .testimonial-dot{
@@ -1228,7 +1233,7 @@ ul.simplefilter {
     margin-top: 1em;
 }
 .support input[type="email"] {
-    width: 65%;
+    width: 83%;
     padding: .5em 1em;
     font-size: 1em;
     text-align: left;
