@@ -5,56 +5,57 @@ Author URL: http://w3layouts.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Worties</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="game development gaming developers unity" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- portfolio -->	
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
-<!-- //portfolio -->	
-<link rel="stylesheet" href="./css/custom_styles.css">
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<link rel=icon href="images/ba7b7a9ca84d9731ecaad4a911706c30_original.png" sizes="16x16" type="image/png">
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	<title>Worties</title>
+	<link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="game development gaming developers unity" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- portfolio -->
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+	<!-- //portfolio -->
+	<link rel="stylesheet" href="./css/custom_styles.css">
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<link rel=icon href="images/ba7b7a9ca84d9731ecaad4a911706c30_original.png" sizes="16x16" type="image/png">
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
 		});
-	});
-</script> 
-<script type="text/javascript">
-	function join_ym() {
-		var yy = document.getElementById('email').value;
-		document.getElementById("emailsub").action = "https://worties.us6.list-manage.com/subscribe/post?u=e47cbbc8b68cf097970bfc5d9&amp;id=0e992a1168&MERGE0=" + yy;
-		return true;
-	}
+	</script>
+	<script type="text/javascript">
+		function join_ym() {
+			var yy = document.getElementById('email').value;
+			document.getElementById("emailsub").action = "https://worties.us6.list-manage.com/subscribe/post?u=e47cbbc8b68cf097970bfc5d9&amp;id=0e992a1168&MERGE0=" + yy;
+			return true;
+		}
 
 
-	function join_ym2() {
-		var yy = document.getElementById('email2').value;
-		document.getElementById("emailsub2").action = "https://worties.us6.list-manage.com/subscribe/post?u=e47cbbc8b68cf097970bfc5d9&amp;id=0e992a1168&MERGE0=" + yy;
-		return true;
-	}
-</script>
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
+		function join_ym2() {
+			var yy = document.getElementById('email2').value;
+			document.getElementById("emailsub2").action = "https://worties.us6.list-manage.com/subscribe/post?u=e47cbbc8b68cf097970bfc5d9&amp;id=0e992a1168&MERGE0=" + yy;
+			return true;
+		}
+	</script>
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<!-- email capture form-->
