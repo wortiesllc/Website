@@ -1,1 +1,1 @@
-gaming_store-starter
+Worties website from w3layouts template
